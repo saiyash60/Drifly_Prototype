@@ -1,0 +1,160 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-image: url("pic.jpg");
+    background-size: 1480px 610px;     
+    background-repeat: no-repeat;
+}  
+
+.logo{
+    color: black;
+}
+
+.navbar{
+    font-family: Georgia, 'Times New Roman', Times, serif ;
+    display: flex;
+    margin: 15px 15px;
+    justify-content: center;
+}
+
+.items{
+    display: flex;
+}
+
+.items li{
+    padding-top: 15px;
+    padding-left: 50px;
+    list-style: none;
+}
+
+.items a{
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.items a:hover{
+    border-bottom: 3px solid white;
+    padding-bottom: 3px;
+}
+
+h1{
+    text-align: center;
+    color: white;
+    line-height: 305px;
+}
+
+.bform{
+    margin-top: 120px;
+    margin-left: 920px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+}
+
+.bform input,select{
+    border: 2px solid black;
+    border-radius: 8px;
+    width: 300px;
+    padding: 7px;
+    margin: 10px;
+    
+}
+
+.sub{
+    margin-left: 1050px;
+    border-radius: 5px;
+    background-color: white;
+    background-color: #f1024f;
+    cursor: pointer;
+    width: 100px;
+    border: 2px solid black;
+    font-size: 18px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.sub:hover{
+    background-color: purple ;
+}
+
+/* section : category */
+
+.category{
+    font-size: 18px;
+    margin-top: 157px;
+    display: flex;
+    justify-content:space-between ;
+    font-family: 'Zen Antique Soft', serif;
+}
+.box{
+    width: 370px;
+    height: 300px;
+    text-align: center;
+    color: white;
+    line-height: 70px;
+    border-right: 2px solid white;
+    border-top: 2px solid white;
+    border-bottom: 2px solid white;
+
+}
+
+#box1{
+    border: 2px solid white;
+    background-color: #ff5a5a;
+}
+#box2{
+    background-color: #ad4aac;
+}
+#box3{
+    background-color: #6bc746;
+}
+#box4{
+    background-color: #109ee8;
+}
+
+.btn{
+    padding: 7px 20px;
+    background-color: inherit;
+    border: 2px solid white;
+    color: white;
+}
+
+  /*      footer        */
+
+footer{
+    background-color: black;
+    height: 40px;
+    color: white;
+}
+
+#sm{
+    display: flex;
+    justify-content: center;
+}
+
+#sm li{
+    list-style: none;
+    padding: 10px 30px;
+}
+
+
+
+a[target="_email"] {
+    color: white;
+}
+a[target="_twitter"] {
+    color: #1DA1F2;
+}
+a[target="_facebook"] {
+    color: #4267B2;
+}
+a[target="_linkedin"] {
+    color:  #0077b5 ;
+}
+a[target="_instagram"] {
+    color: #8a3ab9;
+}
